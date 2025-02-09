@@ -1,0 +1,312 @@
+.container{
+    padding: 0 50px;
+}
+
+.main{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+body{
+    margin: 0;
+}
+
+
+#logo{
+    Width: 100px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+    background-color: wheat;
+    width: 100vw;
+    box-sizing: border-box;
+
+}
+
+ /* banner part style  */
+
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ .halfwidth h1{
+font-size: 50px;
+margin-right: 10px;
+font-weight: 700;
+color: burlywood;
+margin-bottom: -20px;
+ }
+ .halfwidth p{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+
+ }
+
+.halfwidth2{
+    margin-top: 20px;
+}
+
+
+
+.halfwidth button{
+    padding: 12px 26px;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #E02c6D;
+    border: none;
+    margin-top: 10px;
+}
+
+.halfwidth2 img {
+width: 350px; 
+height: auto;
+margin-top: 60px;
+
+}
+
+.Collection h1{
+text-align: center ;
+
+}
+
+
+.rightNav a{
+     text-decoration: none;
+     color: black;
+     margin-left: 25px;
+     
+}
+
+#company-logo{
+    display: flex;
+    justify-content: center;
+
+}
+      
+#company-logo img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*  <!--Popular collection part -->*/
+
+.tripod{
+height: 450px;
+width: 300px;
+margin-left: 20px;
+background-color: white;
+border-radius: 20px;
+box-shadow: 2px 2px 15px rgb(0, 0, 0.288);
+padding: 18px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.tripod-image{
+width: 100%;
+border-radius: 20px;
+}
+
+.tripod-image image {
+    width: 100%;
+}
+
+.tripodHead{
+    color: #363958;
+    font-size: 24px;
+}
+
+.microphone{
+ height: 450px;
+width: 300px;
+margin-left: 20px;
+background-color: white;
+border-radius: 20px;
+box-shadow: 2px 2px 15px rgb(0, 0, 0.288);
+padding: 18px;
+margin-top: 15px;
+margin-bottom: 15px;
+
+}
+
+.Collectionparent{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+
+}
+
+
+.Drone{
+    height: 450px;
+    width: 300px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0.288);
+    padding: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+.Gopro{
+    height: 450px;
+    width: 300px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0.288);
+    padding: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.Collectionparent{
+    display: grid;
+grid-template-columns: auto auto auto;
+}
+
+.Laptop{
+    height: 450px;
+    width: 300px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0.288);
+    padding: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.seemore1{
+    margin-left: 1080px;
+    color: #E02c6D;
+}
+
+
+.Last-PAragraph h1{
+    display: flex;
+    
+}
+
+
+.Last-PAragraph button {
+    padding: 12px 26px;
+    border-radius: 0px;
+    font-size: 10px;
+    font-weight: 100;
+    color: white;
+    background-color: #E02c6D;
+    border: none;
+    margin-top: 10px;
+
+}
+
+
+.final-image img {
+    
+   margin-left : 30px;
+    
+}
+
+.conclusionPARAgraph{
+background-color: rgb(4, 4, 35);
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
+.finalcontainer{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+
+}
+
+
+.Cocnlusion{
+margin-top: 100px;
+
+}
+
+.finalLOGO{
+display: flex;
+justify-content: center;
+
+}
+
+.finalLOGO i{
+    margin-left: 5px;
+    margin-left: 5px;
+}
+
+
+.conclusionPARAgraph h1{
+    text-align: center;
+margin-top: 50px;
+
+
+}
+
+.conclusionPARAgraph p {
+text-align: center;
+margin-top: 20px;
+}
+
+
+
+
+@media screen and(max-width:1024px) {
+#camera{
+    height: 60%;
+    width: auto;
+}
+.halfwidth h1{
+    font-size: 60px;
+}
+
+}
+@media screen and(max-width:834px) {
+.banner{
+
+    flex-direction: column-reverse;
+    
+}
+
+.halfwidth{
+    width: 100%;
+}
+
+}
+@media screen and(max-width:768px) {
+.rightNav{
+    display: none;
+}
+
+
+
+}
+@media screen and(max-width:480px) {}
