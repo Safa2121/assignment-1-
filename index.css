@@ -204,6 +204,12 @@ grid-template-columns: auto auto auto;
     color: #E02c6D;
 }
 
+.Last-PAragraph{
+margin-right: 90px;
+
+}
+
+
 
 .Last-PAragraph h1{
     display: flex;
@@ -226,7 +232,7 @@ grid-template-columns: auto auto auto;
 
 .final-image img {
     
-   margin-left : 30px;
+   margin-left : 60px;
     
 }
 
@@ -262,6 +268,17 @@ justify-content: center;
     margin-left: 5px;
     margin-left: 5px;
 }
+
+.finalLOGO {
+    margin-left: 5px;
+    margin-left: 5px;
+}
+
+.conclusionPARAgraph h1{
+ text-align: center;
+}
+
+
 
 
 .conclusionPARAgraph h1{
